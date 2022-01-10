@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Layout = ({children,pagina}) => {
     return(
@@ -13,6 +14,8 @@ const Layout = ({children,pagina}) => {
         
         <Header/>
             {children}
+            
+        <Footer/>
             
     </div>
     );
