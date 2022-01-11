@@ -22,5 +22,7 @@ const Blog = () => {
     );
 }
 
-
+export async function getServerSideProps() {
+    
+}
 export default Blog;
