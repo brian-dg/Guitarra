@@ -1,14 +1,25 @@
 import Layout from "../components/Layout";
-
+import Entrada from "../components/Entrada";
 
 const Blog = ({resultado}) => {
 
-    console.log(resultado)
+    
     return(
         <Layout 
         pagina="Blog"
         >
-            <h1>Desde Blog</h1>    
+            <main className="contenedor">
+                <h2 className="heading">Blogs</h2>
+
+                <div>
+                    {resultado.map(entrada =>(
+                        <Entrada
+                            key={entrada.id}
+                            entrada = {entrada}
+                        />
+                    ))}
+                </div>
+            </main>  
         </Layout>
     );
 }
