@@ -21,7 +21,7 @@ const Blog = () => {
         </Layout>
     );
 }
-
+//probando
 export async function getServerSideProps() {
     
 }
