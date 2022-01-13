@@ -3,8 +3,8 @@ import Entrada from "../components/Entrada";
 import styles from '../styles/Blog.module.css';
 
 const Blog = ({resultado}) => {
+    const url = `${process.env.NEXT_PUBLIC_API_URL}/blogs`;
 
-    
     return(
         <Layout 
         pagina="Blog"
@@ -40,7 +40,7 @@ export async function getServerSideProps() {
 
 //Usar cuando el contenido es estatico. 
 export async function getStaticProps() {
-    const url = 'http://localhost:1337/blogs';
+    const url = `${process.env.API_URL}/blogs`;
     const respuesta = await fetch(url)
     const resultado = await respuesta.json()
 
