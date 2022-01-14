@@ -3,7 +3,7 @@ import Entrada from "../components/Entrada";
 import styles from '../styles/Blog.module.css';
 
 const Blog = ({resultado}) => {
-    const url = `${process.env.NEXT_PUBLIC_API_URL}/blogs`;
+ 
 
     return(
         <Layout 
