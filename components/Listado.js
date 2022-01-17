@@ -9,6 +9,7 @@ const Listado = ({guitarras}) => {
                 <Producto 
                 key={producto.url}
                 producto={producto}/>
+                
             ))}
         </div>
     )
