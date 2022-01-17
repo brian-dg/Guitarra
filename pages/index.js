@@ -14,7 +14,7 @@ export default function Home({guitarras,cursos}) {
       </main>
 
       <Curso 
-        curso={curso}
+        cursos={cursos}
       />
     </Layout>
   )
