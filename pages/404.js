@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import styles from '../styles/noEncontrado.module.css';
+import styles from '../styles/NoEncontrado.module.css';
 const noEncontrado = () => {
     
     return (
