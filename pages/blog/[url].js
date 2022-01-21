@@ -8,7 +8,7 @@ const EntradaBlog = ({entrada}) => {
 const {contenido,imagen,published_at,titulo} = entrada[0]
     return(
         <Layout
-        pagina={titulo}>
+        pagina={titulos}>
             <main className="contenedor">
                 <h1 className="heading">{titulo}</h1>
                 <article className={styles.entrada}>
