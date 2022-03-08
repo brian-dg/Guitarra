@@ -3,7 +3,6 @@ import ListadoBlog from '../components/ListadoBlog';
 
 const Blog = ({entradas}) => {
  
-
     return(
         <Layout 
         pagina="Blog"
@@ -16,6 +15,7 @@ const Blog = ({entradas}) => {
         </Layout>
     );
 }
+
 /* Esta funcion construye cada vez qe se dirige a una pagina lo cual genera un uso muy intensivo
 Construye una respuesta diferente  cada vez qe va a la api.
 export async function getServerSideProps() {

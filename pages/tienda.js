@@ -15,7 +15,6 @@ const Tienda = ({guitarras}) => {
     );
 }
 
-
 export async function getServerSideProps() {
     const url = `${process.env.API_URL}/guitarras`;
     const respuesta = await fetch(url)

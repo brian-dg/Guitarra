@@ -28,7 +28,6 @@ export default function Home({guitarras,cursos,entradas}) {
   )
 }
 
-
 export async function getServerSideProps() {
   const urlGuitarras = `${process.env.API_URL}/guitarras`;
   const urlCursos = `${process.env.API_URL}/cursos`;

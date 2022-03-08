@@ -19,6 +19,7 @@ const Entrada = ({entrada}) => {
                    <a className={style.enlace}>Leer entrada</a> 
                 </Link>
             </div>
+            
         </article>
     )
 }
